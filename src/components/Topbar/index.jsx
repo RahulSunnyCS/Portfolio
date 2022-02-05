@@ -1,4 +1,4 @@
-import { ICONS } from "../constants";
+import { ICONS } from "../../constants";
 import IconContainer from "../IconContainer";
 import "./styles.scss";
 
