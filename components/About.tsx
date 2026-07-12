@@ -8,22 +8,24 @@ export default function About() {
       <div className="about__grid">
         <Reveal delay={100} className="about__text">
           <p>
-            I&apos;m a results-oriented Frontend Engineer with <strong>5+ years</strong> of experience
-            shipping production-grade web applications. I thrive in agile environments, owning
-            features end-to-end — from API integration to release.
+            I&apos;m a results-oriented Senior Frontend Engineer with <strong>7 years</strong> of
+            experience building high-performance React + TypeScript applications at scale. I thrive
+            in agile environments, owning features end-to-end — from API integration to release.
           </p>
           <p>
-            My strengths lie in <strong>React</strong>, state management, design systems, and
-            continuous delivery. I&apos;m passionate about performance optimization, accessibility, and
-            creating interfaces that feel effortless to use.
+            My strengths lie in <strong>React</strong>, Core Web Vitals optimisation, component
+            architecture, and AI-augmented frontend systems — LLM streaming, SSE, and RAG. I&apos;m
+            passionate about performance, accessibility, and creating interfaces that feel effortless
+            to use.
           </p>
           <p>
-            Currently at <strong>Winwire Technologies</strong> in Bengaluru, I lead frontend
-            architecture decisions and help teams ship faster through reusable component patterns.
+            Currently at <strong>Winwire Technologies</strong> (client: Tekion Corp) in Bengaluru, I
+            design shared AI streaming infrastructure and lead frontend architecture decisions that
+            help teams ship faster through reusable component patterns.
           </p>
           <div className="about__stats">
             <div className="about__stat">
-              <span className="about__stat-num">5+</span>
+              <span className="about__stat-num">7</span>
               <span className="about__stat-label">Years Experience</span>
             </div>
             <div className="about__stat">
@@ -44,6 +46,7 @@ export default function About() {
               <div>
                 <div className="about__info-title">Based in</div>
                 <div className="about__info-value">Bengaluru, India</div>
+                <div className="about__info-sub">Relocating to Dubai, UAE</div>
               </div>
             </div>
             <div className="about__info-card">

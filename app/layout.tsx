@@ -6,12 +6,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Rahul Sunny C S — Frontend Engineer",
+  title: "Rahul Sunny C S — Senior Frontend Engineer",
   description:
-    "Portfolio of Rahul Sunny C S, Senior Software Design Engineer specializing in React, TypeScript, and performant web applications.",
+    "Portfolio of Rahul Sunny C S, Senior Frontend Engineer specializing in React, TypeScript, Core Web Vitals, and AI-augmented frontend systems.",
   openGraph: {
-    title: "Rahul Sunny C S — Frontend Engineer",
-    description: "5+ years building production-grade web applications.",
+    title: "Rahul Sunny C S — Senior Frontend Engineer",
+    description: "7 years building high-performance React + TypeScript applications at scale.",
     type: "website",
   },
 };

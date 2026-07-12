@@ -4,20 +4,28 @@ import TiltCard from "./TiltCard";
 
 const projectsData = [
   {
-    title: "SentryFront",
+    title: "VibeSafe",
     description:
-      "Frontend-first security platform for detecting BOLA, exposed secrets, and broken access control in single-page applications. Scans client-side code and network patterns to surface vulnerabilities before they reach production.",
-    tags: ["React", "Security", "SPA Analysis"],
-    github: "https://github.com/RahulSunnyCS/sentryfront",
+      "Web quality platform for security, performance, a11y, and SEO. Scans with 18 security modules and 6 GDPR/CCPA/WCAG 2.2 compliance-signal detectors; reconciles Lighthouse lab data with real-user CrUX field data. Integrates Claude for AI remediation, feature-flagged and fault-isolated from the deterministic scan.",
+    tags: ["Next.js 14", "TypeScript", "Prisma", "Claude API"],
+    github: "https://github.com/RahulSunnyCS/vibesafe",
     color: "var(--primary)",
   },
   {
-    title: "Trade Analytics",
+    title: "knowdiff",
     description:
-      "Automated trade data pipeline — parses broker contract notes from email, extracts P&L and charges data, and syncs multi-account analytics to Google Sheets. Supports Finvasia and AngelOne brokers.",
-    tags: ["Node.js", "Automation", "Google Sheets API"],
-    github: "https://github.com/RahulSunnyCS/trade-analytics",
+      "Local-first knowledge extraction and claim-verification engine. End-to-end RAG pipeline: local transcription → propositional chunking → hybrid dense+sparse retrieval fused via Reciprocal Rank Fusion, with every output cited to source video and timestamp. Claim classification via a local DeBERTa NLI model.",
+    tags: ["Python", "RAG", "faster-whisper", "Claude API"],
+    github: "https://github.com/RahulSunnyCS/knowdiff",
     color: "var(--secondary)",
+  },
+  {
+    title: "Multi-Agent Evaluation Harness",
+    description:
+      "Policy comparison under distribution shift — runs 10 policy variants in parallel against a shared signal distribution to measure generalisation across regime shifts. Five-stage gating per agent with an end-of-day retrospection loop driving parameter evolution; applied to NSE/BSE index options, paper-trading only.",
+    tags: ["TypeScript", "PostgreSQL", "TimescaleDB"],
+    github: "https://github.com/RahulSunnyCS/ai-trading-agent",
+    color: "var(--primary)",
   },
 ];
 

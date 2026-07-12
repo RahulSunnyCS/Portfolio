@@ -2,10 +2,12 @@ import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
 
 const skillCategories = [
-  { title: "Frontend", skills: ["React", "React Native", "Vue", "Redux", "Saga", "Gatsby"] },
-  { title: "Languages", skills: ["JavaScript", "TypeScript", "HTML", "CSS"] },
-  { title: "Tools & Platforms", skills: ["Git", "Figma", "Storyblok", "Selenium", "Zapier"] },
-  { title: "Practices", skills: ["Design Systems", "Performance", "Accessibility", "SEO", "CI/CD"] },
+  { title: "Frontend", skills: ["React", "TypeScript", "JavaScript (ES2023)", "Next.js", "Redux Toolkit", "React Native", "Vue", "GatsbyJS", "HTML", "CSS"] },
+  { title: "AI Engineering", skills: ["LLM Streaming (SSE)", "RAG Pipelines", "Prompt Engineering", "Claude/OpenAI APIs", "MCP"] },
+  { title: "Backend (Working Knowledge)", skills: ["Java", "Spring Boot", "REST APIs", "PostgreSQL"] },
+  { title: "Performance", skills: ["Core Web Vitals (LCP/TBT/CLS)", "Lighthouse", "Code Splitting", "Bundle Optimisation"] },
+  { title: "Testing & Tooling", skills: ["Jest", "React Testing Library", "Selenium", "Git", "CI/CD"] },
+  { title: "CMS & Design", skills: ["Storyblok", "Figma"] },
 ];
 
 export default function Skills() {

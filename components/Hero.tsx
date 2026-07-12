@@ -22,7 +22,7 @@ export default function Hero() {
             </h1>
           </Reveal>
           <Reveal delay={240}>
-            <p className="hero__role">Senior Software Design Engineer</p>
+            <p className="hero__role">Senior Frontend Engineer</p>
           </Reveal>
           <div className="hero__typed-wrap">
             <span className="hero__typed">{typed}</span>
@@ -45,10 +45,10 @@ export default function Hero() {
             </div>
             <pre className="code-block__code">
               <code>{`const Rahul = {
-  role: 'Frontend Engineer',
-  experience: '5+ years',
+  role: 'Senior Frontend Engineer',
+  experience: '7 years',
   stack: ['React', 'TypeScript',
-          'Vue', 'React Native'],
+          'Next.js', 'AI/LLM Systems'],
   passion: 'Pixel-perfect UI'
 };`}</code>
             </pre>

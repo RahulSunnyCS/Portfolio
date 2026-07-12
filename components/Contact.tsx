@@ -8,8 +8,9 @@ export default function Contact() {
       <SectionTitle number="05" title="Get In Touch" />
       <Reveal delay={100}>
         <p className="contact__intro">
-          I&apos;m currently exploring Senior Frontend roles in Bengaluru. Whether you have an
-          opportunity, a project idea, or just want to connect — my inbox is open.
+          I&apos;m relocating to Dubai, UAE and available to interview immediately for Senior
+          Frontend roles. Whether you have an opportunity, a project idea, or just want to connect —
+          my inbox is open.
         </p>
       </Reveal>
 

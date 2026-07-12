@@ -3,15 +3,16 @@ import SectionTitle from "./SectionTitle";
 
 const experienceData = [
   {
-    company: "Winwire Technologies",
+    company: "Winwire Technologies (Client: Tekion Corp)",
     role: "Senior Software Design Engineer",
     period: "Feb 2024 — Present",
     location: "Bengaluru",
     highlights: [
-      "Expanded analytics platform to two new brands by extracting duplicated brand logic into reusable modules",
-      "Led config-driven migration of email templates to reusable component architecture",
-      "Delivered module-level code splitting, lifting PageSpeed by +10 points",
-      "Co-owned pre-checkout feature maintenance — triaged defects, coordinated fixes, kept releases on track",
+      "Designed and built a shared AI streaming infrastructure layer — SSE-based streaming service, LRU cache with TTL eviction, and a useAIStream hook — cutting per-feature AI integration from ~80 lines to 3",
+      "Expanded the analytics platform to two new brands by taking over an orphaned project and extracting duplicated brand logic into reusable modules",
+      "Led a config-driven migration of email templates to a reusable component architecture, improving cross-brand consistency",
+      "Delivered module-level code splitting as part of a tech-debt cleanup, lifting PageSpeed (lab) by +10 for that module",
+      "Co-owned the pre-checkout module — triaged priority production defects and coordinated frontend fixes across teams",
     ],
   },
   {
@@ -20,22 +21,21 @@ const experienceData = [
     period: "Apr 2022 — Jan 2024",
     location: "Bengaluru",
     highlights: [
-      "Drove conversion rate improvement via page-performance optimization and SEO enhancements",
-      "Migrated HubSpot forms to in-house solution — +5 Lighthouse performance score",
-      "Optimised page-data.json reducing TBT by up to 6 seconds",
-      "Orchestrated end-to-end B2U rebranding with seamless UI transition",
-      "Automated critical flows with Selenium for early bug detection",
+      "Improved pre-enrollment conversion by migrating HubSpot forms to an in-house form system, improving Lighthouse performance score by ~5 points on average",
+      "Owned the B2U vertical end-to-end — built new components, integrated HubSpot and Storyblok (headless CMS)",
+      "Built an internal redirect-configuration app, eliminating broken links and improving SEO crawlability",
+      "Led frontend delivery of the B2U rebranding with zero-downtime transition during the site overhaul",
+      "Automated critical user flows with Selenium (Python) and drove the accessibility (a11y) migration",
     ],
   },
   {
-    company: "Envestnet",
+    company: "Envestnet Asset Management",
     role: "Senior Engineer",
     period: "Jul 2019 — Mar 2022",
     location: "Trivandrum",
     highlights: [
-      "Built enterprise SPAs for multiple projects using React.js",
-      "Maintained a React Native app — development, upgrades, App Store & Play Store deployment",
-      "Resolved application security issues and performed regular maintenance",
+      "Solely owned a production React Native app for 2 years — feature development, RN version upgrades, and App Store / Play Store releases",
+      "Developed enterprise React SPAs for wealth-management clients across multiple projects",
     ],
   },
 ];
